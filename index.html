@@ -30,7 +30,7 @@
             <td>5.000 kr.-</td>
             <td>
               <form class="add" method="post">
-                <label>Fjöldi: <input type="number" value="1" min="0" max="99"></label>
+                <label>Fjöldi: <input type="number"class="quantity-input" value="1" min="0" max="99"></label>
                 <button>Bæta við</button>
               </form>
             </td>
@@ -41,7 +41,7 @@
             <td>3.000 kr.-</td>
             <td>
               <form class="add" method="post">
-                <label>Fjöldi: <input type="number" value="1" min="0" max="99"></label>
+                <label>Fjöldi: <input type="number"class="quantity-input" value="1" min="0" max="99"></label>
                 <button>Bæta við</button>
               </form>
             </td>
@@ -52,7 +52,7 @@
             <td><span class="price">20.000 kr.-</span></td>
             <td>
               <form class="add" method="post">
-                <label>Fjöldi: <input type="number" value="1" min="0" max="99"></label>
+                <label>Fjöldi: <input type="number"class="quantity-input" value="1" min="0" max="99"></label>
                 <button>Bæta við</button>
               </form>
             </td>
@@ -60,14 +60,14 @@
         </tbody>
       </table>
     </section>
-    <section>
+    <section class="cart">
       <h2>Karfa</h2>
-      <div class="cart">
+      <div class="cart-message">
         <p class="empty-message">Ekkert í körfu.</p>
         <div class="cart-content hidden">eitthvað í körfu.</div>
       </div>
 
-      <table class="table">
+      <table  class="table">
         <thead>
           <tr>
             <th>Heiti</th>
@@ -78,22 +78,11 @@
           </tr>
         </thead>
         <tbody>
-          <tr data-cart-product-id="1">
-            <td class="title">HTML húfa</td>
-            <td class="quantity">1</td>
-            <td class="price"><span class="price">5.000 kr.-</span></td>
-            <td class="total"><span class="price">5.000 kr.-</span></td>
-            <td>
-              <form class="remove" method="post">
-                <button>Eyða</button>
-              </form>
-            </td>
-          </tr>
         </tbody>
         <tfoot>
           <tr>
             <td colspan="3">Samtals</td>
-            <td><span class="price">5.000 kr.-</span></td>
+            <td><span class="price"> </span></td>
             <td></td>
           </tr>
         </tfoot>
